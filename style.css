@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:active {
+    color: black;
+}
+
+h1 {
+    font-size: 35px;
+    font-weight: 600;
+}
+
+body {
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+    box-sizing: border-box;
+}
+
+form {
+    margin: 80px auto;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 22%;
+    border-radius: 10px;
+    background-color: white;
+}
+
+button {
+    background: none;
+}
+
+#slider {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border: solid;
+    border-color: rgb(201, 201, 201);
+    border-radius: 10px;
+    border-width: 1px;
+    width: 100%;
+    height: 50px;
+
+}
+
+#log,
+#sign {
+    border: none;
+    width: 100%;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.selected {
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+    color: white;
+    border-radius: 10px;
+}
+
+input[type="email"],
+input[type="password"] {
+    margin: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    font-size: 17px;
+}
+
+input[type="email"] + value {
+    padding-left: 8px;
+}
+
+input[type="email"]::placeholder,
+input[type="password"]::placeholder {
+    padding-left: 8px;
+}
+
+#submit {
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(201, 201, 201);
+    width: 100%;
+    height: 50px;
+    font-size: 18px;
+    font-weight: 500;
+    background: -webkit-linear-gradient(left, #003366, #004080, #0059b3, #0073e6);
+    color: white;
+}
+
+#submit:hover {
+    background: -webkit-linear-gradient(left, #0073e6, #0059b3, #004080, #003366);
+    cursor: pointer;
+}
+
+.signup {
+    display: none;
+}
