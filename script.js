@@ -1,20 +1,3 @@
-// const btn = document.getElementById("submit");
-// const form = document.querySelector("form");
-// const warning = document.getElementById("warning");
-// btn.addEventListener("click", () => {
-// event.preventDefault();
-// const p_word = document.getElementById("p_word").value;
-// const u_name = document.getElementById("u_name").value;
-// if (u_name == "" || p_word == "") {
-// warning.innerText = "Fill all the fields"
-// }
-// else if (u_name.includes("@") == false) {
-// warning.innerText = "Please include @ in your username";
-// } else {
-// warning.innerText = "";
-// }
-// });
-
 const login_toggle_btn = document.getElementById("log");
 const signup_toggle_btn = document.getElementById("sign");
 const login_components = document.querySelectorAll(".login");
